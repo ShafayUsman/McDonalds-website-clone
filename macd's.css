@@ -1,0 +1,442 @@
+body{
+    overflow-x: hidden;
+}
+.logo {
+    margin-top: -63px;
+    width: 120px;
+    margin-left: -52px;
+}
+
+.main1 {
+    background-color: rgb(255, 255, 255);
+    height: 123px;
+
+}
+
+ul {
+    margin-top: 20px;
+    margin-left: 13px;
+}
+
+.navbar{
+    background-color: #ffffff !important;
+    font-size: 17px;
+    padding: -40px;
+    font-weight: 500;
+}
+.navbar ul li{
+    background-color: #ffffff !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.row2 {
+    background-color: transparent;
+    margin-top: -62px;
+    margin-left: 40px;
+}
+
+a {
+    color: black;
+    padding-left: 30px !important;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+    padding-left: 30px !important;
+}
+
+.btn1 {
+    border: none;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.fa-location-dot {
+    color: red;
+    margin-top: 25px;
+}
+
+.loc {
+    margin-left: 20px;
+}
+
+.btn2 {
+    background-color: #FFBC0D;
+    color: black;
+    width: 180px;
+    margin-left: -20px;
+    font-weight: 600;
+    margin-top: 16.6px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+}
+
+/*banner crousel*/
+.main2 {
+    height: 510px;
+    margin-top: 40px;
+
+}
+.carousel-slide{
+  height: 430px;
+  width: 103%;
+  margin-left: -14px;
+}
+.col1{
+    width: 430px !important;
+}
+.main-3{
+    margin-top: 30px;
+}
+.main-3>.row>.col>.card{
+    height: 430px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.main-3>.row{
+    margin: 0vw 2vw;
+}
+.card-text{
+    text-align: center;
+    color: #292929;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 25px 0px;
+}
+.card-title{
+    text-align: center;
+    font-size: 28.8px;
+    color: #db0007;
+    font-weight: 700;
+}
+.btn-warning{
+    position: relative;
+    /* top: 20%; */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-4{
+    width: 100%;
+    margin-top: 150px;
+    /* gap: 20px; */
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+.text-1{
+    font-size: 16px;
+    color: #292929;
+    font-weight: 700;
+    padding-bottom: 13px;
+}
+.text-2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #292929;
+    line-height: .7;
+    cursor: pointer;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 140px; */
+    margin: 50px 7.5vw;
+}
+.social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    /* text-align: center; */
+  }
+  
+  .icon i {
+    font-size: 16px;
+    color: black;
+    margin-left: -28px;
+  }
+  
+  .icon:hover i {
+    color: white;
+    border: none;
+  }
+  
+  .fb:hover {
+    background-color: #4267B2;
+  }
+  
+  .x:hover {
+    background-color: black;
+  }
+  
+  .yt:hover {
+    background-color: #FF0000;
+  }
+  
+  .ig:hover {
+    background-color: #C13584;
+  }
+  
+  .li:hover {
+    background-color: #0077B5;
+  }
+  
+  .tt:hover {
+    background-color: black;
+  }
+#extre{
+    width: 86%;
+    height: .2px;
+    background-color: rgba(205, 193, 193, 0.531);
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 7.5vw;
+}
+.end-1{
+    display: flex;
+    gap: 30px;
+}
+.text-3{
+    font-size: 16px;
+    color: #292929;
+    font-weight: 400;
+}
+.text-4 img{
+    width: 30px;
+}
+.text-4{
+    color: #292929;
+}
+
+/* Default styles for larger screens */
+
+@media (max-width: 1200px) {
+    .logo {
+        margin-top: -40px;
+        width: 100px;
+        margin-left: -40px;
+    }
+
+    .navbar {
+        font-size: 16px;
+    }
+
+    .main2 {
+        height: 450px;
+    }
+
+    .carousel-slide {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .col1 {
+        width: 100%;
+    }
+
+    .main-3>.row {
+        margin: 0 1.5vw;
+    }
+
+    .main-3>.row>.col>.card {
+        height: 400px;
+    }
+
+    .social {
+        margin: 40px 5vw;
+    }
+
+    .icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .icon i {
+        font-size: 14px;
+        margin-left: -20px;
+    }
+
+    .btn2 {
+        width: 150px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+    .logo {
+        margin-top: -30px;
+        width: 80px;
+        margin-left: -30px;
+    }
+
+    .navbar {
+        font-size: 15px;
+    }
+
+    .main2 {
+        height: 400px;
+    }
+
+    .carousel-slide {
+        height: 350px;
+    }
+
+    .col1 {
+        width: 100%;
+    }
+
+    .main-3>.row>.col>.card {
+        height: 350px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon i {
+        font-size: 12px;
+        margin-left: -15px;
+    }
+
+    .btn2 {
+        width: 140px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .end {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .end-1 {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        margin-top: -20px;
+        width: 70px;
+        margin-left: -20px;
+    }
+
+    .navbar {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .main1 {
+        height: 100px;
+    }
+
+    .main2 {
+        height: 350px;
+    }
+
+    .carousel-slide {
+        height: 300px;
+    }
+
+    .main-3>.row>.col>.card {
+        height: 300px;
+    }
+
+    .social {
+        flex-direction: column;
+        margin: 20px 5vw;
+    }
+
+    .icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .icon i {
+        font-size: 10px;
+        margin-left: -10px;
+    }
+
+    .btn2 {
+        width: 130px;
+        height: 25px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo {
+        margin-top: -10px;
+        width: 60px;
+        margin-left: -10px;
+    }
+
+    .navbar {
+        font-size: 12px;
+    }
+
+    .main2 {
+        height: 300px;
+    }
+
+    .carousel-slide {
+        height: 250px;
+    }
+
+    .main-3>.row>.col>.card {
+        height: 250px;
+    }
+
+    .social {
+        margin: 10px 3vw;
+    }
+
+    .icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .icon i {
+        font-size: 8px;
+        margin-left: -8px;
+    }
+
+    .btn2 {
+        width: 120px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .end {
+        margin: 30px 3vw;
+    }
+}
